@@ -1,0 +1,187 @@
+national,gdlcode,iso_code,name,is--national
+afgt,AFGt,AFG,Afghanistan,TRUE
+agot,AGOt,AGO,Angola,TRUE
+albt,ALBt,ALB,Albania,TRUE
+andt,ANDt,AND,Andorra,TRUE
+aret,AREt,ARE,United Arab Emirates,TRUE
+argt,ARGt,ARG,Argentina,TRUE
+armt,ARMt,ARM,Armenia,TRUE
+atgt,ATGt,ATG,Antigua and Barbuda,TRUE
+aust,AUSt,AUS,Australia,TRUE
+autt,AUTt,AUT,Austria,TRUE
+azet,AZEt,AZE,Azerbaijan,TRUE
+bdit,BDIt,BDI,Burundi,TRUE
+belt,BELt,BEL,Belgium,TRUE
+bent,BENt,BEN,Benin,TRUE
+bfat,BFAt,BFA,Burkina Faso,TRUE
+bgdt,BGDt,BGD,Bangladesh,TRUE
+bgrt,BGRt,BGR,Bulgaria,TRUE
+bhrt,BHRt,BHR,Bahrain,TRUE
+bhst,BHSt,BHS,Bahamas,TRUE
+biht,BIHt,BIH,Bosnia and Herzegovina,TRUE
+blrt,BLRt,BLR,Belarus,TRUE
+blzt,BLZt,BLZ,Belize,TRUE
+bolt,BOLt,BOL,Bolivia,TRUE
+brat,BRAt,BRA,Brazil,TRUE
+brbt,BRBt,BRB,Barbados,TRUE
+brnt,BRNt,BRN,Brunei Darussalam,TRUE
+btnt,BTNt,BTN,Bhutan,TRUE
+bwat,BWAt,BWA,Botswana,TRUE
+caft,CAFt,CAF,Central African Republic CAR,TRUE
+cant,CANt,CAN,Canada,TRUE
+chet,CHEt,CHE,Switzerland,TRUE
+chlt,CHLt,CHL,Chili,TRUE
+chnt,CHNt,CHN,China,TRUE
+civt,CIVt,CIV,Cote d'Ivoire,TRUE
+cmrt,CMRt,CMR,Cameroon,TRUE
+codt,CODt,COD,Congo Democratic Republic,TRUE
+cogt,COGt,COG,Congo Brazzaville,TRUE
+colt,COLt,COL,Colombia,TRUE
+comt,COMt,COM,Comoros,TRUE
+cpvt,CPVt,CPV,Cape Verde,TRUE
+crit,CRIt,CRI,Costa Rica,TRUE
+cubt,CUBt,CUB,Cuba,TRUE
+cypt,CYPt,CYP,Cyprus,TRUE
+czet,CZEt,CZE,Czech Republic,TRUE
+deut,DEUt,DEU,Germany,TRUE
+djit,DJIt,DJI,Djibouti,TRUE
+dmat,DMAt,DMA,Dominica,TRUE
+dnkt,DNKt,DNK,Denmark,TRUE
+domt,DOMt,DOM,Dominican Republic,TRUE
+dzat,DZAt,DZA,Algeria,TRUE
+ecut,ECUt,ECU,Ecuador,TRUE
+egyt,EGYt,EGY,Egypt,TRUE
+erit,ERIt,ERI,Eritrea,TRUE
+espt,ESPt,ESP,Spain,TRUE
+estt,ESTt,EST,Estonia,TRUE
+etht,ETHt,ETH,Ethiopia,TRUE
+fint,FINt,FIN,Finland,TRUE
+fjit,FJIt,FJI,Fiji,TRUE
+frat,FRAt,FRA,France,TRUE
+fsmt,FSMt,FSM,Micronesia (Federated States of),TRUE
+gabt,GABt,GAB,Gabon,TRUE
+gbrt,GBRt,GBR,United Kingdom,TRUE
+geot,GEOt,GEO,Georgia,TRUE
+ghat,GHAt,GHA,Ghana,TRUE
+gint,GINt,GIN,Guinea,TRUE
+gmbt,GMBt,GMB,Gambia,TRUE
+gnbt,GNBt,GNB,Guinea Bissau,TRUE
+gnqt,GNQt,GNQ,Equatorial Guinea,TRUE
+grct,GRCt,GRC,Greece,TRUE
+grdt,GRDt,GRD,Grenada,TRUE
+gtmt,GTMt,GTM,Guatemala,TRUE
+guyt,GUYt,GUY,Guyana,TRUE
+hndt,HNDt,HND,Honduras,TRUE
+hrvt,HRVt,HRV,Croatia,TRUE
+htit,HTIt,HTI,Haiti,TRUE
+hunt,HUNt,HUN,Hungary,TRUE
+idnt,IDNt,IDN,Indonesia,TRUE
+indt,INDt,IND,India,TRUE
+irlt,IRLt,IRL,Ireland,TRUE
+irnt,IRNt,IRN,Iran,TRUE
+irqt,IRQt,IRQ,Iraq,TRUE
+islt,ISLt,ISL,Iceland,TRUE
+isrt,ISRt,ISR,Israel,TRUE
+itat,ITAt,ITA,Italy,TRUE
+jamt,JAMt,JAM,Jamaica,TRUE
+jort,JORt,JOR,Jordan,TRUE
+jpnt,JPNt,JPN,Japan,TRUE
+kazt,KAZt,KAZ,Kazakhstan,TRUE
+kent,KENt,KEN,Kenya,TRUE
+kgzt,KGZt,KGZ,Kyrgyzstan,TRUE
+khmt,KHMt,KHM,Cambodia,TRUE
+kirt,KIRt,KIR,Kiribati,TRUE
+knat,KNAt,KNA,Saint Kitts and Nevis,TRUE
+kort,KORt,KOR,South Korea,TRUE
+kwtt,KWTt,KWT,Kuwait,TRUE
+laot,LAOt,LAO,Lao,TRUE
+lbnt,LBNt,LBN,Lebanon,TRUE
+lbrt,LBRt,LBR,Liberia,TRUE
+lbyt,LBYt,LBY,Libya,TRUE
+lcat,LCAt,LCA,Saint Lucia,TRUE
+liet,LIEt,LIE,Liechtenstein,TRUE
+lkat,LKAt,LKA,Sri Lanka,TRUE
+lsot,LSOt,LSO,Lesotho,TRUE
+ltut,LTUt,LTU,Lithuania,TRUE
+luxt,LUXt,LUX,Luxembourg,TRUE
+lvat,LVAt,LVA,Latvia,TRUE
+mart,MARt,MAR,Morocco,TRUE
+mdat,MDAt,MDA,Moldova,TRUE
+mdgt,MDGt,MDG,Madagascar,TRUE
+mdvt,MDVt,MDV,Maldives,TRUE
+mext,MEXt,MEX,Mexico,TRUE
+mkdt,MKDt,MKD,North Macedonia,TRUE
+mlit,MLIt,MLI,Mali,TRUE
+mmrt,MMRt,MMR,Myanmar,TRUE
+mnet,MNEt,MNE,Monte Negro,TRUE
+mngt,MNGt,MNG,Mongolia,TRUE
+mozt,MOZt,MOZ,Mozambique,TRUE
+mrtt,MRTt,MRT,Mauritania,TRUE
+must,MUSt,MUS,Mauritius,TRUE
+mwit,MWIt,MWI,Malawi,TRUE
+myst,MYSt,MYS,Malaysia,TRUE
+namt,NAMt,NAM,Namibia,TRUE
+nert,NERt,NER,Niger,TRUE
+ngat,NGAt,NGA,Nigeria,TRUE
+nict,NICt,NIC,Nicaragua,TRUE
+nldt,NLDt,NLD,Netherlands,TRUE
+nort,NORt,NOR,Norway,TRUE
+nplt,NPLt,NPL,Nepal,TRUE
+nzlt,NZLt,NZL,New Zealand,TRUE
+omnt,OMNt,OMN,Oman,TRUE
+pakt,PAKt,PAK,Pakistan,TRUE
+pant,PANt,PAN,Panama,TRUE
+pert,PERt,PER,Peru,TRUE
+phlt,PHLt,PHL,Philippines,TRUE
+pngt,PNGt,PNG,Papua New Guinea,TRUE
+polt,POLt,POL,Poland,TRUE
+prtt,PRTt,PRT,Portugal,TRUE
+pryt,PRYt,PRY,Paraguay,TRUE
+pset,PSEt,PSE,Palestine,TRUE
+qatt,QATt,QAT,Qatar,TRUE
+rout,ROUt,ROU,Romania,TRUE
+rust,RUSt,RUS,Russian Federation,TRUE
+rwat,RWAt,RWA,Rwanda,TRUE
+saut,SAUt,SAU,Saudi Arabia,TRUE
+sdnt,SDNt,SDN,Sudan,TRUE
+sent,SENt,SEN,Senegal,TRUE
+sgpt,SGPt,SGP,Singapore,TRUE
+slbt,SLBt,SLB,Solomon Islands,TRUE
+slet,SLEt,SLE,Sierra Leone,TRUE
+slvt,SLVt,SLV,El Salvador,TRUE
+somt,SOMt,SOM,Somalia,TRUE
+srbt,SRBt,SRB,Serbia,TRUE
+ssdt,SSDt,SSD,South Sudan,TRUE
+stpt,STPt,STP,Sao Tome & Principe,TRUE
+surt,SURt,SUR,Suriname,TRUE
+svkt,SVKt,SVK,Slovakia,TRUE
+svnt,SVNt,SVN,Slovenia,TRUE
+swet,SWEt,SWE,Sweden,TRUE
+swzt,SWZt,SWZ,Eswatini,TRUE
+syrt,SYRt,SYR,Syria,TRUE
+tcdt,TCDt,TCD,Chad,TRUE
+tgot,TGOt,TGO,Togo,TRUE
+that,THAt,THA,Thailand,TRUE
+tjkt,TJKt,TJK,Tajikistan,TRUE
+tkmt,TKMt,TKM,Turkmenistan,TRUE
+tlst,TLSt,TLS,Timor Leste,TRUE
+tont,TONt,TON,Tonga,TRUE
+ttot,TTOt,TTO,Trinidad & Tobago,TRUE
+tunt,TUNt,TUN,Tunisia,TRUE
+turt,TURt,TUR,Turkey,TRUE
+tzat,TZAt,TZA,Tanzania,TRUE
+ugat,UGAt,UGA,Uganda,TRUE
+ukrt,UKRt,UKR,Ukraine,TRUE
+uryt,URYt,URY,Uruguay,TRUE
+usat,USAt,USA,United States,TRUE
+uzbt,UZBt,UZB,Uzbekistan,TRUE
+vctt,VCTt,VCT,Saint Vincent and the Grenadines,TRUE
+vent,VENt,VEN,Venezuela,TRUE
+vnmt,VNMt,VNM,Vietnam,TRUE
+vutt,VUTt,VUT,Vanuatu,TRUE
+wsmt,WSMt,WSM,Samoa,TRUE
+ksvt,KSVt,XKO,Kosovo,TRUE
+yemt,YEMt,YEM,Yemen,TRUE
+zaft,ZAFt,ZAF,South Africa,TRUE
+zmbt,ZMBt,ZMB,Zambia,TRUE
+zwet,ZWEt,ZWE,Zimbabwe,TRUE

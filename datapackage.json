@@ -1,14 +1,2475 @@
 {
     "name": "ddf--gdl--shdi",
-    "author": "Gapminder",
-    "description": "Global Data Lab - Subnational HDI",
     "language": {
         "name": "English",
         "id": "en"
     },
-    "translations": [],
-    "license": "CC-BY-4.0",
     "title": "Global Data Lab - Subnational HDI",
+    "description": "Global Data Lab - Subnational HDI",
+    "author": "Gapminder",
+    "license": "CC-BY-4.0",
+    "created": "2022-08-18T07:26:15.912895+00:00",
+    "translations": [],
     "version": "0.0.1",
-    "resources": []
+    "resources": [
+        {
+            "name": "ddf--datapoints--edindex--by--national--year",
+            "path": "datapoints/ddf--datapoints--edindex--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "edindex"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--edindex--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--edindex--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "edindex"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--edindexf--by--national--year",
+            "path": "datapoints/ddf--datapoints--edindexf--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "edindexf"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--edindexf--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--edindexf--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "edindexf"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--edindexm--by--national--year",
+            "path": "datapoints/ddf--datapoints--edindexm--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "edindexm"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--edindexm--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--edindexm--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "edindexm"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--esch--by--national--year",
+            "path": "datapoints/ddf--datapoints--esch--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "esch"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--esch--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--esch--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "esch"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--eschf--by--national--year",
+            "path": "datapoints/ddf--datapoints--eschf--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "eschf"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--eschf--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--eschf--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "eschf"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--eschm--by--national--year",
+            "path": "datapoints/ddf--datapoints--eschm--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "eschm"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--eschm--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--eschm--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "eschm"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--gnic--by--national--year",
+            "path": "datapoints/ddf--datapoints--gnic--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gnic"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--gnic--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--gnic--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gnic"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--gnicf--by--national--year",
+            "path": "datapoints/ddf--datapoints--gnicf--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gnicf"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--gnicf--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--gnicf--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gnicf"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--gnicm--by--national--year",
+            "path": "datapoints/ddf--datapoints--gnicm--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gnicm"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--gnicm--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--gnicm--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "gnicm"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--healthindex--by--national--year",
+            "path": "datapoints/ddf--datapoints--healthindex--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "healthindex"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--healthindex--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--healthindex--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "healthindex"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--healthindexf--by--national--year",
+            "path": "datapoints/ddf--datapoints--healthindexf--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "healthindexf"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--healthindexf--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--healthindexf--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "healthindexf"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--healthindexm--by--national--year",
+            "path": "datapoints/ddf--datapoints--healthindexm--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "healthindexm"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--healthindexm--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--healthindexm--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "healthindexm"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--incindex--by--national--year",
+            "path": "datapoints/ddf--datapoints--incindex--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incindex"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--incindex--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--incindex--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incindex"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--incindexf--by--national--year",
+            "path": "datapoints/ddf--datapoints--incindexf--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incindexf"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--incindexf--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--incindexf--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incindexf"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--incindexm--by--national--year",
+            "path": "datapoints/ddf--datapoints--incindexm--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incindexm"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--incindexm--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--incindexm--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incindexm"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lgnic--by--national--year",
+            "path": "datapoints/ddf--datapoints--lgnic--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lgnic"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lgnic--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--lgnic--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lgnic"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lgnicf--by--national--year",
+            "path": "datapoints/ddf--datapoints--lgnicf--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lgnicf"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lgnicf--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--lgnicf--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lgnicf"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lgnicm--by--national--year",
+            "path": "datapoints/ddf--datapoints--lgnicm--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lgnicm"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lgnicm--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--lgnicm--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lgnicm"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lifexp--by--national--year",
+            "path": "datapoints/ddf--datapoints--lifexp--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lifexp"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lifexp--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--lifexp--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lifexp"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lifexpf--by--national--year",
+            "path": "datapoints/ddf--datapoints--lifexpf--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lifexpf"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lifexpf--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--lifexpf--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lifexpf"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lifexpm--by--national--year",
+            "path": "datapoints/ddf--datapoints--lifexpm--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lifexpm"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--lifexpm--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--lifexpm--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "lifexpm"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mfsel--by--national--year",
+            "path": "datapoints/ddf--datapoints--mfsel--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mfsel"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mfsel--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--mfsel--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mfsel"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--msch--by--national--year",
+            "path": "datapoints/ddf--datapoints--msch--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "msch"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--msch--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--msch--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "msch"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mschf--by--national--year",
+            "path": "datapoints/ddf--datapoints--mschf--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mschf"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mschf--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--mschf--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mschf"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mschm--by--national--year",
+            "path": "datapoints/ddf--datapoints--mschm--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mschm"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mschm--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--mschm--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mschm"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--pop--by--national--year",
+            "path": "datapoints/ddf--datapoints--pop--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "pop"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--pop--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--pop--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "pop"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sgdi--by--national--year",
+            "path": "datapoints/ddf--datapoints--sgdi--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sgdi"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sgdi--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--sgdi--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sgdi"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--shdi--by--national--year",
+            "path": "datapoints/ddf--datapoints--shdi--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "shdi"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--shdi--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--shdi--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "shdi"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--shdif--by--national--year",
+            "path": "datapoints/ddf--datapoints--shdif--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "shdif"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--shdif--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--shdif--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "shdif"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--shdim--by--national--year",
+            "path": "datapoints/ddf--datapoints--shdim--by--national--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "shdim"
+                    }
+                ],
+                "primaryKey": [
+                    "national",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--shdim--by--subnat--year",
+            "path": "datapoints/ddf--datapoints--shdim--by--subnat--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "shdim"
+                    }
+                ],
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "shortdescr"
+                    },
+                    {
+                        "name": "longdescr"
+                    },
+                    {
+                        "name": "domain"
+                    },
+                    {
+                        "name": "drill_ups"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "name": "ddf--entities--level--national",
+            "path": "ddf--entities--level--national.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "gdlcode"
+                    },
+                    {
+                        "name": "iso_code"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "is--national"
+                    }
+                ],
+                "primaryKey": "national"
+            }
+        },
+        {
+            "name": "ddf--entities--level--subnat",
+            "path": "ddf--entities--level--subnat.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "subnat"
+                    },
+                    {
+                        "name": "gdlcode"
+                    },
+                    {
+                        "name": "is--subnat"
+                    },
+                    {
+                        "name": "national"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "subnat"
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "domain",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "drill_ups",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "longdescr",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "shortdescr",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [
+            {
+                "primaryKey": [
+                    "level"
+                ],
+                "value": "gdlcode",
+                "resources": [
+                    "ddf--entities--level--national",
+                    "ddf--entities--level--subnat"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national"
+                ],
+                "value": "gdlcode",
+                "resources": [
+                    "ddf--entities--level--national"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat"
+                ],
+                "value": "gdlcode",
+                "resources": [
+                    "ddf--entities--level--subnat"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level"
+                ],
+                "value": "is--national",
+                "resources": [
+                    "ddf--entities--level--national"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national"
+                ],
+                "value": "is--national",
+                "resources": [
+                    "ddf--entities--level--national"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level"
+                ],
+                "value": "is--subnat",
+                "resources": [
+                    "ddf--entities--level--subnat"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat"
+                ],
+                "value": "is--subnat",
+                "resources": [
+                    "ddf--entities--level--subnat"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level"
+                ],
+                "value": "iso_code",
+                "resources": [
+                    "ddf--entities--level--national"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national"
+                ],
+                "value": "iso_code",
+                "resources": [
+                    "ddf--entities--level--national"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--level--national",
+                    "ddf--entities--level--subnat"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--level--national"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--level--subnat"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level"
+                ],
+                "value": "national",
+                "resources": [
+                    "ddf--entities--level--subnat"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat"
+                ],
+                "value": "national",
+                "resources": [
+                    "ddf--entities--level--subnat"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "edindex",
+                "resources": [
+                    "ddf--datapoints--edindex--by--national--year",
+                    "ddf--datapoints--edindex--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "edindex",
+                "resources": [
+                    "ddf--datapoints--edindex--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "edindex",
+                "resources": [
+                    "ddf--datapoints--edindex--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "edindexf",
+                "resources": [
+                    "ddf--datapoints--edindexf--by--national--year",
+                    "ddf--datapoints--edindexf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "edindexf",
+                "resources": [
+                    "ddf--datapoints--edindexf--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "edindexf",
+                "resources": [
+                    "ddf--datapoints--edindexf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "edindexm",
+                "resources": [
+                    "ddf--datapoints--edindexm--by--national--year",
+                    "ddf--datapoints--edindexm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "edindexm",
+                "resources": [
+                    "ddf--datapoints--edindexm--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "edindexm",
+                "resources": [
+                    "ddf--datapoints--edindexm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "esch",
+                "resources": [
+                    "ddf--datapoints--esch--by--national--year",
+                    "ddf--datapoints--esch--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "esch",
+                "resources": [
+                    "ddf--datapoints--esch--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "esch",
+                "resources": [
+                    "ddf--datapoints--esch--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "eschf",
+                "resources": [
+                    "ddf--datapoints--eschf--by--national--year",
+                    "ddf--datapoints--eschf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "eschf",
+                "resources": [
+                    "ddf--datapoints--eschf--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "eschf",
+                "resources": [
+                    "ddf--datapoints--eschf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "eschm",
+                "resources": [
+                    "ddf--datapoints--eschm--by--national--year",
+                    "ddf--datapoints--eschm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "eschm",
+                "resources": [
+                    "ddf--datapoints--eschm--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "eschm",
+                "resources": [
+                    "ddf--datapoints--eschm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "gnic",
+                "resources": [
+                    "ddf--datapoints--gnic--by--national--year",
+                    "ddf--datapoints--gnic--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "gnic",
+                "resources": [
+                    "ddf--datapoints--gnic--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "gnic",
+                "resources": [
+                    "ddf--datapoints--gnic--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "gnicf",
+                "resources": [
+                    "ddf--datapoints--gnicf--by--national--year",
+                    "ddf--datapoints--gnicf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "gnicf",
+                "resources": [
+                    "ddf--datapoints--gnicf--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "gnicf",
+                "resources": [
+                    "ddf--datapoints--gnicf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "gnicm",
+                "resources": [
+                    "ddf--datapoints--gnicm--by--national--year",
+                    "ddf--datapoints--gnicm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "gnicm",
+                "resources": [
+                    "ddf--datapoints--gnicm--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "gnicm",
+                "resources": [
+                    "ddf--datapoints--gnicm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "healthindex",
+                "resources": [
+                    "ddf--datapoints--healthindex--by--national--year",
+                    "ddf--datapoints--healthindex--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "healthindex",
+                "resources": [
+                    "ddf--datapoints--healthindex--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "healthindex",
+                "resources": [
+                    "ddf--datapoints--healthindex--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "healthindexf",
+                "resources": [
+                    "ddf--datapoints--healthindexf--by--national--year",
+                    "ddf--datapoints--healthindexf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "healthindexf",
+                "resources": [
+                    "ddf--datapoints--healthindexf--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "healthindexf",
+                "resources": [
+                    "ddf--datapoints--healthindexf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "healthindexm",
+                "resources": [
+                    "ddf--datapoints--healthindexm--by--national--year",
+                    "ddf--datapoints--healthindexm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "healthindexm",
+                "resources": [
+                    "ddf--datapoints--healthindexm--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "healthindexm",
+                "resources": [
+                    "ddf--datapoints--healthindexm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "incindex",
+                "resources": [
+                    "ddf--datapoints--incindex--by--national--year",
+                    "ddf--datapoints--incindex--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "incindex",
+                "resources": [
+                    "ddf--datapoints--incindex--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "incindex",
+                "resources": [
+                    "ddf--datapoints--incindex--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "incindexf",
+                "resources": [
+                    "ddf--datapoints--incindexf--by--national--year",
+                    "ddf--datapoints--incindexf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "incindexf",
+                "resources": [
+                    "ddf--datapoints--incindexf--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "incindexf",
+                "resources": [
+                    "ddf--datapoints--incindexf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "incindexm",
+                "resources": [
+                    "ddf--datapoints--incindexm--by--national--year",
+                    "ddf--datapoints--incindexm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "incindexm",
+                "resources": [
+                    "ddf--datapoints--incindexm--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "incindexm",
+                "resources": [
+                    "ddf--datapoints--incindexm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "lgnic",
+                "resources": [
+                    "ddf--datapoints--lgnic--by--national--year",
+                    "ddf--datapoints--lgnic--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "lgnic",
+                "resources": [
+                    "ddf--datapoints--lgnic--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "lgnic",
+                "resources": [
+                    "ddf--datapoints--lgnic--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "lgnicf",
+                "resources": [
+                    "ddf--datapoints--lgnicf--by--national--year",
+                    "ddf--datapoints--lgnicf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "lgnicf",
+                "resources": [
+                    "ddf--datapoints--lgnicf--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "lgnicf",
+                "resources": [
+                    "ddf--datapoints--lgnicf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "lgnicm",
+                "resources": [
+                    "ddf--datapoints--lgnicm--by--national--year",
+                    "ddf--datapoints--lgnicm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "lgnicm",
+                "resources": [
+                    "ddf--datapoints--lgnicm--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "lgnicm",
+                "resources": [
+                    "ddf--datapoints--lgnicm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "lifexp",
+                "resources": [
+                    "ddf--datapoints--lifexp--by--national--year",
+                    "ddf--datapoints--lifexp--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "lifexp",
+                "resources": [
+                    "ddf--datapoints--lifexp--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "lifexp",
+                "resources": [
+                    "ddf--datapoints--lifexp--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "lifexpf",
+                "resources": [
+                    "ddf--datapoints--lifexpf--by--national--year",
+                    "ddf--datapoints--lifexpf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "lifexpf",
+                "resources": [
+                    "ddf--datapoints--lifexpf--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "lifexpf",
+                "resources": [
+                    "ddf--datapoints--lifexpf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "lifexpm",
+                "resources": [
+                    "ddf--datapoints--lifexpm--by--national--year",
+                    "ddf--datapoints--lifexpm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "lifexpm",
+                "resources": [
+                    "ddf--datapoints--lifexpm--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "lifexpm",
+                "resources": [
+                    "ddf--datapoints--lifexpm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "mfsel",
+                "resources": [
+                    "ddf--datapoints--mfsel--by--national--year",
+                    "ddf--datapoints--mfsel--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "mfsel",
+                "resources": [
+                    "ddf--datapoints--mfsel--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "mfsel",
+                "resources": [
+                    "ddf--datapoints--mfsel--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "msch",
+                "resources": [
+                    "ddf--datapoints--msch--by--national--year",
+                    "ddf--datapoints--msch--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "msch",
+                "resources": [
+                    "ddf--datapoints--msch--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "msch",
+                "resources": [
+                    "ddf--datapoints--msch--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "mschf",
+                "resources": [
+                    "ddf--datapoints--mschf--by--national--year",
+                    "ddf--datapoints--mschf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "mschf",
+                "resources": [
+                    "ddf--datapoints--mschf--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "mschf",
+                "resources": [
+                    "ddf--datapoints--mschf--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "mschm",
+                "resources": [
+                    "ddf--datapoints--mschm--by--national--year",
+                    "ddf--datapoints--mschm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "mschm",
+                "resources": [
+                    "ddf--datapoints--mschm--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "mschm",
+                "resources": [
+                    "ddf--datapoints--mschm--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "pop",
+                "resources": [
+                    "ddf--datapoints--pop--by--national--year",
+                    "ddf--datapoints--pop--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "pop",
+                "resources": [
+                    "ddf--datapoints--pop--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "pop",
+                "resources": [
+                    "ddf--datapoints--pop--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "sgdi",
+                "resources": [
+                    "ddf--datapoints--sgdi--by--national--year",
+                    "ddf--datapoints--sgdi--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "sgdi",
+                "resources": [
+                    "ddf--datapoints--sgdi--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "sgdi",
+                "resources": [
+                    "ddf--datapoints--sgdi--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "shdi",
+                "resources": [
+                    "ddf--datapoints--shdi--by--national--year",
+                    "ddf--datapoints--shdi--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "shdi",
+                "resources": [
+                    "ddf--datapoints--shdi--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "shdi",
+                "resources": [
+                    "ddf--datapoints--shdi--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "shdif",
+                "resources": [
+                    "ddf--datapoints--shdif--by--national--year",
+                    "ddf--datapoints--shdif--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "shdif",
+                "resources": [
+                    "ddf--datapoints--shdif--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "shdif",
+                "resources": [
+                    "ddf--datapoints--shdif--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "level",
+                    "year"
+                ],
+                "value": "shdim",
+                "resources": [
+                    "ddf--datapoints--shdim--by--national--year",
+                    "ddf--datapoints--shdim--by--subnat--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "national",
+                    "year"
+                ],
+                "value": "shdim",
+                "resources": [
+                    "ddf--datapoints--shdim--by--national--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "subnat",
+                    "year"
+                ],
+                "value": "shdim",
+                "resources": [
+                    "ddf--datapoints--shdim--by--subnat--year"
+                ]
+            }
+        ],
+        "synonyms": []
+    }
 }
