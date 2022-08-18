@@ -1,0 +1,14 @@
+{
+    "name": "ddf--gdl--shdi",
+    "author": "Gapminder",
+    "description": "Global Data Lab - Subnational HDI",
+    "language": {
+        "name": "English",
+        "id": "en"
+    },
+    "translations": [],
+    "license": "CC-BY-4.0",
+    "title": "Global Data Lab - Subnational HDI",
+    "version": "0.0.1",
+    "resources": []
+}
