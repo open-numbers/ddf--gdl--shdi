@@ -8,7 +8,7 @@
     "description": "Global Data Lab - Subnational HDI",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2022-08-18T07:26:15.912895+00:00",
+    "created": "2024-08-21T02:52:05.581955+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -1299,7 +1299,9 @@
                         "name": "drill_ups"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -1323,7 +1325,9 @@
                         "name": "is--national"
                     }
                 ],
-                "primaryKey": "national"
+                "primaryKey": [
+                    "national"
+                ]
             }
         },
         {
@@ -1347,7 +1351,9 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "subnat"
+                "primaryKey": [
+                    "subnat"
+                ]
             }
         }
     ],
